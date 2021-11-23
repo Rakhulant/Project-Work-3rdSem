@@ -21,3 +21,10 @@
     margin-right: 15px;
     font-size: 20px;
 }
+
+.left-title{
+    font-size: 25px;
+    position: relative;
+    bottom: 10px;
+    margin-right: 30px;
+}
