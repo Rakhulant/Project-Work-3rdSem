@@ -57,5 +57,7 @@
 }
 
 .header{
-    font-size: 10px;
+    font-size: 15px;
+    display: inline;
+    margin-right: 30%;
 }
