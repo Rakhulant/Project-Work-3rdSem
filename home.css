@@ -16,7 +16,8 @@
 }
 
 .right{
-    text-align: right;
+    position: relative;
+    text-align: center;
 }
 
 .left-title{
