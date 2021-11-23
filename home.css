@@ -10,6 +10,7 @@
     text-decoration: none;
 }
 .navBar a{
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     color: black;
 }
