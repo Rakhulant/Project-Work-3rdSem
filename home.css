@@ -41,7 +41,7 @@
 .qs{
     margin: auto;
     width: 90%;
-    height: 100px;
+    height: 170px;
     border: 1px solid black;
 }
 
@@ -61,3 +61,18 @@
     display: inline;
     margin-right: 30%;
 }
+
+.question-tab{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.footer{
+    display: inline;
+    margin-left: 10px;
+    
+}
+
+
+
