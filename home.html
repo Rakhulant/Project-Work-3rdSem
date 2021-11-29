@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    
     <title>Home</title>
 </head>
 <body>
@@ -19,7 +21,7 @@
         </div>
     </div> -->
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-success">
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
         <a class="navbar-brand" href="#"><span class="mb-0 h1">AskBMS</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -45,29 +47,38 @@
         </div>
     </nav>
 
-    <div class="content">
-        <div class="questions">
-            <button>Latest</button>
-            <button>Frequently Asked</button>
-            <hr>
-            <div class="qs">
-            <h3 class = "header">Asked on: 11/11/11</h3>
-            <h3 class = "header">Tags</h3>
-            <div class = "question-tab">
-                <h3 class = "middle">How were the placements this year?</h3>
-            </div>
-            <div class = "footer">
-                <h3 class = "footer">No. of answers: 12</h3>
-                <h3 class = "footer">Views: 69</h3>
-                <button class = "footer">Answer this</button>
-            </div>
-            </div>
+    <div class = "container-fluid container-1">
+    
+        <div class = "question-type">
+        <a class = "latest" href="#">Latest</a>
+        <a class = "most-viewed" href="#">Most viewed</a>
         </div>
-        <div class="compose">
-            <input type="text" placeholder="Ask a question">
+    
+        <div class = "details">
+            <h4 class="details"><span class = "asked">Asked on : </span> <span class = "date">11/11/11</span></h4>
+            <h4 class = "details"><span class = "tags">Tags : </span> <span class = "tag-name">Placements</span></h4>
         </div>
+        
+        <div class = "question">
+            <p class = "question">How were the placements this year?</p>
+        </div>
+        
+      
+        <div class = "button">
+            <a class="btn btn-primary" href="#" role="button"><i class="far fa-comments"></i>4 Answers</a>
+            <button type="button" class="btn btn-outline-primary"><i class="fas fa-eye"></i>Views: 100</button>
+            <button type="button" class="btn btn-dark btn-lg custom-button">Answer this</button>
+        </div>
+    
+    
     </div>
+    
+    
 
 </body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </html>
