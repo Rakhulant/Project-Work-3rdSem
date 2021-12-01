@@ -84,8 +84,18 @@
     
 } */
 
+
+
+.questions{
+    float:left;
+    max-width:800px;
+    overflow-y: auto;
+    max-height: 550px;
+}
+
 .container-1{
-     
+   margin-top: 20px; 
+   margin-right: 20px;
 }
 
 .details{
@@ -93,6 +103,7 @@
     margin-right: 40px;
     margin-left: 2px;
     font-size: 22px;
+    margin-top: 20px;
 }
 
 .asked{
@@ -112,7 +123,7 @@
 }
 
 .question{
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 5px;
 }
 
@@ -141,11 +152,14 @@
     margin-right: 50px;
     text-decoration: underline;
     color: grey;
+    font-size: 20px;
+    margin-left: 10px;
 }
 
 .most-viewed{
     display: inline;
     color: grey;
+    font-size: 20px;
 }
 
 
