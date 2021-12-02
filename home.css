@@ -92,7 +92,7 @@
 }
 
 .container-1{
-   margin-top: 20px; 
+   margin-top: 25px; 
    margin-right: 100px;
 }
 
@@ -140,24 +140,30 @@
 }
 
 .question-type{
-    margin-top: 10px;
-    margin-left: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
     padding-bottom: 20px;
+   
 }
 
 .latest{
-    display: inline;
+    display: inline-block;
     margin-right: 50px;
     text-decoration: underline;
     color: grey;
-    font-size: 20px;
+    font-size: 23px; 
     margin-left: 10px;
 }
 
 .most-viewed{
-    display: inline;
+    display: inline-block;
     color: grey;
-    font-size: 20px;
+    font-size: 23px; 
+}
+
+
+.custom-button{
+    margin-left: 20px;
 }
 
 
