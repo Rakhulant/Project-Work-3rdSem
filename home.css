@@ -84,18 +84,16 @@
     
 } */
 
-
-
 .questions{
     float:left;
-    max-width:800px;
+    max-width:2000px;
     overflow-y: auto;
     max-height: 550px;
 }
 
 .container-1{
    margin-top: 20px; 
-   margin-right: 20px;
+   margin-right: 100px;
 }
 
 .details{
@@ -123,7 +121,7 @@
 }
 
 .question{
-    font-size: 30px;
+    font-size: 27px;
     margin-top: 5px;
 }
 
