@@ -1,19 +1,60 @@
 .login-page{
     width: 100%;
     height: 100%;
-    background-color: red;
+    background-color:lightskyblue;
     background-position: center;
     background-size: cover;
     position: absolute;
 
 }
 .form-box{
-    width: 300px;
-    height: 600px;
+    width: 350px;
+    height: 500px;
     position:relative;
     margin: 6% auto;
     background: white;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 20px;
+    border-color: black;
+    border-width: medium;
+    
+}
+
+.button-box{
+    width: 250ox;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
 
 }
+
+.toggle-button{
+    padding: 10px 30px ;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+.toggle-button{
+    padding: 10px 30px ;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#button{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #0000ff,#ffffff);
+    border-radius: 30px;
+    transition: .5s;
+
+}
+
