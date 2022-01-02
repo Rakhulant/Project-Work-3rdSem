@@ -19,6 +19,8 @@
     position: absolute;
     background-image: url("https://i.pinimg.com/originals/c8/8a/71/c88a71ba963bace6b5678d6dad6a991a.png");
     background-color: whitesmoke;
+    background-position: left;
+    background-position: calc(100,400);
 
 }
 .form-box{
@@ -48,7 +50,7 @@
     cursor: pointer;
     background: transparent;
     border: 0;
-    outline: none;
+    outline:none;
     position: relative;
     background-position: center;
 }
@@ -60,7 +62,7 @@
     position: absolute;
     width: 140px;
     height: 100%;
-    background: linear-gradient(to right, #0000ff,#ffffff);
+    background: linear-gradient(to right,#2323ec,#ffffff);
     border-radius: 30px;
     transition: .5s;
 
