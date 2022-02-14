@@ -130,6 +130,13 @@
     transform: scale(1,2);
 }
 
+.border-vote{
+    border-color:tomato;
+    border-style: dashed;
+    width: 400px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
 
 

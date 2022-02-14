@@ -39,6 +39,12 @@
     
 }
 
+.link-item{
+    margin-right: 10px;
+    color:white;
+    font-size:large;
+}
+
 
 /* .content{
     display: flex;
