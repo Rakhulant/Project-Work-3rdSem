@@ -39,6 +39,7 @@
     
 }
 
+
 /* .content{
     display: flex;
 }
@@ -132,9 +133,14 @@
     margin-right: 10px;
 }
 
-.fas{
-    margin-right: 10px;
+.view-btn{
+    margin-left: 50px;
 }
+
+
+ /* .fas{
+    margin-left: 20px;
+}  */
 
 .btn{
     background-color: rgb(97, 97, 235);
@@ -154,7 +160,6 @@
 #latest{
     display: inline-block;
     margin-right: 100px;
-    text-decoration: underline;
     color: grey;
     font-size: 26px; 
     margin-left: 10px;
@@ -175,6 +180,11 @@
     color:darkolivegreen;
 }
 
-
+.question-text{
+    width: 70%;
+    height:50px;
+    font-size:14pt;
+    margin-top: 30px;
+}
 
 
