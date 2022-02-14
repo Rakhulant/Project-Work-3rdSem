@@ -151,19 +151,19 @@
    
 }
 
-.latest{
+#latest{
     display: inline-block;
     margin-right: 100px;
     text-decoration: underline;
     color: grey;
-    font-size: 23px; 
+    font-size: 26px; 
     margin-left: 10px;
 }
 
-.most-viewed{
+#most-viewed{
     display: inline-block;
     color: grey;
-    font-size: 23px; 
+    font-size: 26px; 
 }
 
 
