@@ -30,27 +30,68 @@
                     <a class="nav-link" href=""><span class = "link-item">Questions</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="D:\Project-Work-3rdSem\profile.html" target="_blank"><span class = "link-item">Profile</span></a>
-                </li>
-                 <li class="nav-item">
                     <a class="nav-link" href="D:\Project-Work-3rdSem\register.html" target="_blank" ><span class = "link-item">Login/Register</span></a>
+                </li>
+                <li class="nav-item">
+                    <!-- <a class="nav-link" href="" data-modal-target = "#modal"><span class = "link-item">Ask a question</span></a> -->
+                    <button type="button" data-modal-target = "#modal" class="btn btn-dark custom-btn">Ask a Question</button>
+                    <div id = "modal">
+                        <div class = "header">
+                            <h3 class = "title">Ask a quetion</h3>
+                            <button data-close-button class = "close-button">&times;</button>
+                        </div>
+                        
+                        <div class = "modal-body">
+                        <div class = "tips">
+                           <p class = "tips-text">Tips on getting good answers quickly: </p>
+                           <ol>
+                               <li class = "tip">Make sure your question has not been asked already.</li>
+                               <li class = "tip">Keep your question short and to the point.</li>
+                               <li class = "tip">Avoid inapproriate and offensive words.</li>
+                           </ol> 
+                        </div>
+
+                        <div class = "ask-tags">
+                            <h3 class = "ask-tags"> Tags: </h3>
+                        </div>
+                        <div class = "ask-tags">
+                            <h3 class = "ask-tags">Directed to: </h3>
+                        </div>
+                        
+                        <div class = "ask-tags">
+                            <h3 class = "ask-tags">Date: </h3>
+                        </div>
+                        <div class = "enter-answer">
+                                <input class = "your-answer" type="text" placeholder="Enter your answer">
+                            </div>
+                    
+                            <button type = "button" id = "submit" onclick = "show_Message()">Submit</button>
+                        </div>
+                        
+                    
+                    </div>
+                        
+                    <div  id = "overlay"></div>
                 </li>
                 
             </ul>
         </div>
     </nav>
 
+
     <div class = "question-type">
         <a id = "latest" href="D:\Project-Work-3rdSem\home.html">Latest</a>
         <a id = "most-viewed"  href="D:\Project-Work-3rdSem\home_most-visited.html">Most viewed</a>
         </div>
     
-    <div class = "questions">
+    
+        <div class = "questions">
     <div class = " container-1">
 
         <div class = "details">
             <h4 class="details"><span class = "asked">Asked on : </span> <span class = "date">11/11/11</span></h4>
             <h4 class = "details"><span class = "tags">Tags : </span> <span class = "tag-name">Education</span></h4>
+            <h4 class = "detials"><span class = "directed-to">Directed to:</span><span class = "preference">Anyone</span></h4>
         </div>
         
         <div class = "question">
@@ -72,6 +113,7 @@
         <div class = "details">
             <h4 class="details"><span class = "asked">Asked on : </span> <span class = "date">10/4/21</span></h4>
             <h4 class = "details"><span class = "tags">Tags : </span> <span class = "tag-name">Placements</span></h4>
+            <h4 class = "detials"><span class = "directed-to">Directed to:</span><span class = "preference">Anyone</span></h4>
         </div>
         
         <div class = "question">
@@ -93,6 +135,7 @@
         <div class = "details">
             <h4 class="details"><span class = "asked">Asked on : </span> <span class = "date">22/11/18</span></h4>
             <h4 class = "details"><span class = "tags">Tags : </span> <span class = "tag-name">Sports</span></h4>
+            <h4 class = "detials"><span class = "directed-to">Directed to:</span><span class = "preference">Anyone</span></h4>
         </div>
         
         <div class = "question">
@@ -114,6 +157,7 @@
         <div class = "details">
             <h4 class="details"><span class = "asked">Asked on : </span> <span class = "date">11/11/22</span></h4>
             <h4 class = "details"><span class = "tags">Tags : </span> <span class = "tag-name">Food</span></h4>
+            <h4 class = "detials"><span class = "directed-to">Directed to:</span><span class = "preference">Anyone</span></h4>
         </div>
         
         <div class = "question">
@@ -126,20 +170,13 @@
             <button type="button" class="btn btn-outline-primary view-btn"><i class="fas fa-eye"></i>Views: 400</button>
             
         </div>
-    
+        
+
     
     </div>
 
 </div>
 
-<div class = "d-flex justify-content-center">
-    <button type="button" class="btn btn-info btn-lg ">Ask a Question</button>
-</div>
-
-<div class = "d-flex justify-content-center">
-    <input class = "question-text" type="text" placeholder="Enter your question!">
-</div>
-    
     
 
 </body>

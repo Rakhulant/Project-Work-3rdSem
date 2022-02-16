@@ -92,26 +92,55 @@
     
 } */
 
-.questions{
+/* .questions{
     float:left;
-    /*max-width:5000px;*/
+    max-width:5000px;
     overflow-y: auto;
     max-height: 550px;
+} */
+
+.custom-btn{
+    position: relative;
+    bottom: 10px;
+    margin-left: 5px;
+}
+
+.questions{
+    width: 55%;
+    margin-left: 30%;
+    
 }
 
 .container-1{
-    margin-left: 30px;
-   margin-top: 35px; 
-   margin-right: 200px;
+    /* margin-left: 30px; */
+     background-color: tomato; 
+     padding: 0 10px 10px;
+    margin-top: 60px; 
+   /*margin-right: 200px; */
 }
 
 .details{
-    display: inline-block;
-    margin-right: 40px;
+     display: flex;
+     margin-right: 40px; 
     margin-left: 2px;
     font-size: 22px;
-    margin-top: 20px;
+    margin-top: 20px; 
+
 }
+
+
+.directed-to{
+   position: relative;
+   text-decoration: underline;
+   top: 18px;
+   margin-right: 10px;
+}
+
+.preference{
+    position: relative;
+    top: 18px;
+}
+
 
 .asked{
     text-decoration: underline;
@@ -126,7 +155,7 @@
 }
 
 .tag-name{
-    margin-left: 8px;
+    margin-left: 10px;
 }
 
 .question{
@@ -192,5 +221,92 @@
     font-size:14pt;
     margin-top: 30px;
 }
+
+/* Asking the question: */
+
+#modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    width: 750px;
+    height: 450px;
+    background-color: white;
+    max-width: 80%;
+}
+
+#modal.active{
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.tips{
+    border: 1px solid lightseagreen;
+    background-color:#BDB76B;
+    padding-bottom: 10px;
+}
+
+.tip{
+    color:darkcyan;
+}
+
+.tips-text{
+    color:darkred;
+    margin-left: 20px;
+}
+
+.ask-tags{
+    margin-left: 5px;
+    margin-top: 4px;
+    font-size: 20px;
+}
+
+
+.header{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    border-bottom: 1px solid black;
+}
+
+.header .title{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.header .close-button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-body{
+    padding: 10px 15px;
+}
+
+#overlay{
+    position: fixed;
+    opacity: 0;
+    transform: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5);
+    pointer-events: none;    
+}
+
+#overlay.active{
+    opacity: 1;
+    pointer-events: all;
+}
+
 
 
