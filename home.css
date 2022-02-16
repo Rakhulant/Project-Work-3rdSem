@@ -233,10 +233,16 @@
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    width: 750px;
-    height: 450px;
+    width: 800px;
+    height: 540px;
     background-color: white;
     max-width: 80%;
+    
+}
+
+.model-body{
+    margin-top: 6px;
+    margin-bottom: 9px;
 }
 
 #modal.active{
@@ -245,23 +251,67 @@
 
 .tips{
     border: 1px solid lightseagreen;
-    background-color:#BDB76B;
+    border-width: thin;
     padding-bottom: 10px;
+    padding-top: 5px;
+    margin-bottom: 20px;
 }
 
 .tip{
-    color:darkcyan;
+    color:#2e69ff;
 }
 
 .tips-text{
-    color:darkred;
+    color:#2e69ff;
     margin-left: 20px;
+    text-decoration: underline;
 }
 
 .ask-tags{
+    display:flex;
     margin-left: 5px;
-    margin-top: 4px;
+    margin-top: 10px;
     font-size: 20px;
+    font-size: medium;
+}
+
+.your-answer{
+    width: 25%;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: .5px solid black;
+    border-radius: 5px;;
+}
+
+.enter-answer{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.answer-entered{
+    border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  border-bottom-color: white;
+  background-color: #eee;
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.enter-button{
+    margin-top: 20px;
+    margin-left: 40%;
+    
+}
+
+.title{
+    margin-left: 40%;
+    margin-top: 10px;
+    color:#2e69ff;
 }
 
 

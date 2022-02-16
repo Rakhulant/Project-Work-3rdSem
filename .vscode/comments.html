@@ -160,6 +160,54 @@
 
         <button id = "dislike-btn"><i class = "fa fa-thumbs-down vote-btn"></i></button>
         <input class = "Input" type = "number" id = "input-2" value="0" name=""></input>
+    
+        <div id = "modal">
+            <div class = "header">
+                <h3 class = "title">Ask a Question</h3>
+                <button data-close-button class = "close-button">&times;</button>
+            </div>
+            
+            <div class = "modal-body">
+            <div class = "tips">
+               <p class = "tips-text">Tips on getting good answers quickly: </p>
+               <ol>
+                   <li class = "tip">Make sure your question has not been asked already.</li>
+                   <li class = "tip">Keep your question short and to the point.</li>
+                   <li class = "tip">Avoid inapproriate and offensive words.</li>
+               </ol> 
+            </div>
+
+            <div class = "ask-tags">
+                <h5 class = "ask-tags"> Tags: </h5>
+                <input class = "your-answer" type="text" style="font-size:18px;" placeholder="">
+            </div>
+            <div class = "ask-tags">
+                <h5 class = "ask-tags">Directed to: </h5>
+                <input class = "your-answer" type="text" style="font-size:18px;" placeholder="">
+            </div>
+            
+            <div class = "ask-tags">
+                <h5 class = "ask-tags">Date: </h5>
+                <input class = "your-answer" type="text" style="font-size:18px; padding: 5px 5px;" placeholder="">
+            </div>
+            <div class = "enter-answer">
+                    <input class = "answer-entered" type="text" style="font-size:18px;" placeholder="Start your question with What,How,Why,etc.">
+            </div>
+        
+                <button class="btn btn-lg btn-primary enter-button" type = "button" id = "submit" onclick = "show_Message()">Submit</button>
+        </div>
+            
+        
+        </div>
+            
+        <div  id = "overlay"></div>
+    
+    
+    
+    
+    
+    
+    
     </div>
 
     <hr class = "border-vote">
