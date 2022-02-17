@@ -58,7 +58,7 @@
         </div>
 
         <div class = "enter-answer">
-            <input class = "your-answer" type="text" placeholder="Enter your answer">
+            <input class = "Your-answer" type="text" placeholder="Enter your answer">
             <input type="submit" class="btn btn-dark btn-md submit-button" value="Submit">
         </div>
     
@@ -153,65 +153,69 @@
           <p>As you grow older you realise being alone is a damn good thing</p>
 
         </div>
-    </div>
-    <div class = "voting">
+    <!-- <div class = "voting">
         <button id = "like-btn"><i class = "fa fa-thumbs-up vote-btn"></i></button>
         <input  class = "Input" type = "number" id = "input-1" value="0" name=""></input>
 
         <button id = "dislike-btn"><i class = "fa fa-thumbs-down vote-btn"></i></button>
-        <input class = "Input" type = "number" id = "input-2" value="0" name=""></input>
-    
+        <input class = "Input" type = "number" id = "input-2" value="0" name=""></input> -->
+   
+       <!-- Report Button: -->
+       
+        <button type="button" data-modal-target = "#modal" class="btn btn-dark report-btn">Report</button>
+        
         <div id = "modal">
             <div class = "header">
-                <h3 class = "title">Ask a Question</h3>
+                <h3 class = "title">Report the Question</h3>
                 <button data-close-button class = "close-button">&times;</button>
             </div>
             
-            <div class = "modal-body">
-            <div class = "tips">
-               <p class = "tips-text">Tips on getting good answers quickly: </p>
+           <div class = "modal-body">
+            <div class = "report">
+               <h5 class = "report-text">Why do you want to report this question?</h5>
                <ol>
-                   <li class = "tip">Make sure your question has not been asked already.</li>
-                   <li class = "tip">Keep your question short and to the point.</li>
-                   <li class = "tip">Avoid inapproriate and offensive words.</li>
+                   <div class = "report-body">
+                    <input type = "checkbox" id = "option-1" class="checkbox-round">
+                   <label class = "report-options" for="option-1">Does not answer the question</label>
+                   <br>
+                   <input type = "checkbox" id = "option-2" class="checkbox-round">
+                   <label class = "report-options" for="option-2">Inappropriate words/language</label>
+                   <br>
+                   <input type = "checkbox" id = "option-3" class="checkbox-round">
+                   <label class = "report-options" for="option-3">Poorly written</label>
+                   <br>
+                   <input type = "checkbox" id = "option-4" class="checkbox-round">
+                   <label class = "report-options" for="option-4">Factually incorrect</label>
+                   <br>
+                </div>
+
                </ol> 
             </div>
 
-            <div class = "ask-tags">
-                <h5 class = "ask-tags"> Tags: </h5>
-                <input class = "your-answer" type="text" style="font-size:18px;" placeholder="">
+            <div class = "other-desc">
+            <h5>If you have any other complaints, fill here: </h5>
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+
+
+               
             </div>
-            <div class = "ask-tags">
-                <h5 class = "ask-tags">Directed to: </h5>
-                <input class = "your-answer" type="text" style="font-size:18px;" placeholder="">
-            </div>
-            
-            <div class = "ask-tags">
-                <h5 class = "ask-tags">Date: </h5>
-                <input class = "your-answer" type="text" style="font-size:18px; padding: 5px 5px;" placeholder="">
-            </div>
-            <div class = "enter-answer">
-                    <input class = "answer-entered" type="text" style="font-size:18px;" placeholder="Start your question with What,How,Why,etc.">
-            </div>
+
         
-                <button class="btn btn-lg btn-primary enter-button" type = "button" id = "submit" onclick = "show_Message()">Submit</button>
+                <button class="btn btn-md btn-primary enter-button" type = "button" id = "submit" onclick = "show_Message()">Submit</button>
         </div>
-            
-        
-        </div>
+    </div>
             
         <div  id = "overlay"></div>
     
-    
-    
-    
-    
-    
-    
-    </div>
+    <!-- </div> -->
+ </div>
+
 
     <hr class = "border-vote">
-</div>
 
 </body>
 

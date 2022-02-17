@@ -38,7 +38,7 @@
 
 }
 
-.your-answer{
+.Your-answer{
     width: 200%;
     border-radius: 5%;
 }
@@ -140,6 +140,126 @@
 
 /* Report button css */
 
+#modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    width: 800px;
+    height: 540px;
+    background-color: white;
+    max-width: 80%;
+    
+}
+
+.model-body{
+    margin-top: 6px;
+    margin-bottom: 9px;
+}
+
+#modal.active{
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.report{
+    margin-top: 12px;
+}
+
+.report-body{
+   margin-top: 14px;
+}
+
+.report-text{
+    margin-left: 13px;
+}
+
+.report-options{
+    margin-top: 7px;
+}
+
+.form-control{
+    position: relative;
+    bottom: 20px;
+}
 
 
+.enter-button{
+    margin-top: 20px;
+    margin-left: 40%;
+    
+}
 
+.title{
+    margin-left: 40%;
+    margin-top: 10px;
+    color:#2e69ff;
+}
+
+
+.header{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    border-bottom: 1px solid black;
+}
+
+.header .title{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.header .close-button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-body{
+    padding: 10px 15px;
+}
+
+#overlay{
+    position: fixed;
+    opacity: 0;
+    transform: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5);
+    pointer-events: none;    
+}
+
+#overlay.active{
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+/* Report button checkbox: */
+
+.checkbox-round {
+    width: 1.0em;
+    height: 1.0em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.checkbox-round:checked {
+    background-color: black;
+}
