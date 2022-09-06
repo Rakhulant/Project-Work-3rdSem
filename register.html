@@ -9,14 +9,14 @@
     <div class="login-page">
         <div class="form-box">
             <div class="ask" >
-                <h1>AskBMS</h1></div>
+                <h1>askBMS</h1></div>
             <div class="button-box">
                 <div id="button"></div>
                     <button type="button" class=toggle-button onclick="register()">Register</button>
                     <button type="button" class=toggle-button onclick="login()">Login </button>
 
                     <div>
-                        <form id="register" class="register-data">
+                        <form id="register" class="register-data" action="/home"> 
                             <input type="text" class="input-data" placeholder="USN" required>
                             <input type="email" class="input-data" placeholder="College Mail id" required>
                             <input type="password" class="input-data" placeholder="Password" required>
@@ -25,7 +25,7 @@
                             <button type="submit" class="submit-button">Register</button>                  
     
                         </form>
-                        <form id="login" class="login-data">
+                        <form id="login" class="login-data" action="/home">
                             <input type="text" class="input-data" placeholder="USN" required>
                             <input type="password" class="input-data" placeholder="Password" required>
                             <input type="checkbox" class="check-box"><span>Remember me</span>

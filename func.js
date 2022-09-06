@@ -27,25 +27,25 @@ let q5 = q4
 
 
 questions.forEach((item) =>{
-    qList1.innerHTML += "<a style=\"text-decoration:none;color: inherit;\" href='/question/"+item+"'><div class=\"cardQ mb-2 border\"><div class=\"card-body \"><h5 class=\"card-title\">"+item+"</h5><h6 class=\"card-subtitle\">Tags : Placements, Teachers, Seniors</h6><p class=\"card-text\">I am a 2nd year student in the ME department and wanted to know how and when the placements are conducted in our college</p></div></div></a>";
+    qList1.innerHTML += "<a style=\"text-decoration:none;color: inherit;\" href='/askbms/question/"+item+"'><div class=\"cardQ mb-2 border\"><div class=\"card-body \"><h5 class=\"card-title\">"+item+"</h5><h6 class=\"card-subtitle\">Tags : Placements, Teachers, Seniors</h6><p class=\"card-text\">I am a 2nd year student in the ME department and wanted to know how and when the placements are conducted in our college</p></div></div></a>";
 });
 q2.forEach((item) =>{
-  qList2.innerHTML += "<a style=\"text-decoration:none;color: inherit;\" href='/question/"+item+"'><div class=\"cardQ mb-2 border\"><div class=\"card-body \"><h5 class=\"card-title\">"+item+"</h5><h6 class=\"card-subtitle\">Tags : Placements, Teachers, Seniors</h6><p class=\"card-text\">I am a 2nd year student in the ME department and wanted to know how and when the placements are conducted in our college</p></div></div></a>";
+  qList2.innerHTML += "<a style=\"text-decoration:none;color: inherit;\" href='/askbms/question/"+item+"'><div class=\"cardQ mb-2 border\"><div class=\"card-body \"><h5 class=\"card-title\">"+item+"</h5><h6 class=\"card-subtitle\">Tags : Placements, Teachers, Seniors</h6><p class=\"card-text\">I am a 2nd year student in the ME department and wanted to know how and when the placements are conducted in our college</p></div></div></a>";
 });
 q3.forEach((item) =>{
-  qList3.innerHTML += "<a style=\"text-decoration:none;color: inherit;\" href='/question/"+item+"'><div class=\"cardQ mb-2 border\"><div class=\"card-body \"><h5 class=\"card-title\">"+item+"</h5><h6 class=\"card-subtitle\">Tags : Placements, Teachers, Seniors</h6><p class=\"card-text\">I am a 2nd year student in the ME department and wanted to know how and when the placements are conducted in our college</p></div></div></a>";
+  qList3.innerHTML += "<a style=\"text-decoration:none;color: inherit;\" href='/askbms/question/"+item+"'><div class=\"cardQ mb-2 border\"><div class=\"card-body \"><h5 class=\"card-title\">"+item+"</h5><h6 class=\"card-subtitle\">Tags : Placements, Teachers, Seniors</h6><p class=\"card-text\">I am a 2nd year student in the ME department and wanted to know how and when the placements are conducted in our college</p></div></div></a>";
 });
 q4.forEach((item) =>{
-  qList4.innerHTML += "<a style=\"text-decoration:none;color: inherit;\" href='/question/"+item+"'><div class=\"cardQ mb-2 border\"><div class=\"card-body \"><h5 class=\"card-title\">"+item+"</h5><h6 class=\"card-subtitle\">Tags : Placements, Teachers, Seniors</h6><p class=\"card-text\">I am a 2nd year student in the ME department and wanted to know how and when the placements are conducted in our college</p></div></div></a>";
+  qList4.innerHTML += "<a style=\"text-decoration:none;color: inherit;\" href='/askbms/question/"+item+"'><div class=\"cardQ mb-2 border\"><div class=\"card-body \"><h5 class=\"card-title\">"+item+"</h5><h6 class=\"card-subtitle\">Tags : Placements, Teachers, Seniors</h6><p class=\"card-text\">I am a 2nd year student in the ME department and wanted to know how and when the placements are conducted in our college</p></div></div></a>";
 });
 q5.forEach((item) =>{
-  qList5.innerHTML += "<a style=\"text-decoration:none;color: inherit;\" href='/question/"+item+"'><div class=\"cardQ mb-2 border\"><div class=\"card-body \"><h5 class=\"card-title\">"+item+"</h5><h6 class=\"card-subtitle\">Tags : Placements, Teachers, Seniors</h6><p class=\"card-text\">I am a 2nd year student in the ME department and wanted to know how and when the placements are conducted in our college</p></div></div></a>";
+  qList5.innerHTML += "<a style=\"text-decoration:none;color: inherit;\" href='/askbms/question/"+item+"'><div class=\"cardQ mb-2 border\"><div class=\"card-body \"><h5 class=\"card-title\">"+item+"</h5><h6 class=\"card-subtitle\">Tags : Placements, Teachers, Seniors</h6><p class=\"card-text\">I am a 2nd year student in the ME department and wanted to know how and when the placements are conducted in our college</p></div></div></a>";
 });
 
 
 var debateList = document.getElementById("debateList");
 debates.forEach((item) => {
-    debateList.innerHTML += "<a href=\"/debates/"+item+"\" class=\"list-group-item list-group-item-action text-center debateItem\">"+item+"</a>";
+    debateList.innerHTML += "<a href=\"/askbms/debate/"+item+"\" class=\"list-group-item list-group-item-action text-center debateItem\">"+item+"</a>";
 })
 
 const openModalButtons = document.querySelectorAll('[data-modal-target]')
@@ -54,7 +54,6 @@ const overlay = document.getElementById('overlay')
 
 openModalButtons.forEach(button => {
   button.addEventListener('click', () => {
-    console.log("clicked")
     const modal = document.querySelector(button.dataset.modalTarget)
     openModal(modal)
   })

@@ -17,14 +17,14 @@
     background-position: left;
     background-size: cover;
     position: absolute;
-    background-image: url("https://i.pinimg.com/originals/c8/8a/71/c88a71ba963bace6b5678d6dad6a991a.png");
+    background-image: url("../images/bms-image.jpg");
     
     background-color: whitesmoke;
     background-position: left;
 
 }
 .form-box{
-    width: 330px;
+    width: 380px;
     height: 480px;
     position: relative;
     margin: 6% auto;
@@ -58,7 +58,7 @@
 
 #button{
     top: 0;
-    left: 10px;
+    left: 0px;
     position: absolute;
     width: 140px;
     height: 100%;
