@@ -77,3 +77,7 @@ function closeModal(modal) {
 function show_Message(){
     alert("Quetion has been successfully submited!");
 }
+
+function myFunction() {
+  window.location = "ask_a_question.html";
+}  
