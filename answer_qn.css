@@ -1,0 +1,22 @@
+.answer-title{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.answer-text{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    /* border: solid; */
+}
+
+.answer-area{
+    /* width: 50%; */
+    height: 35%;
+    /* border: */
+}
+
+.submit-answer{
+    margin-left: 47%;
+    margin-top: 50px;
+}
